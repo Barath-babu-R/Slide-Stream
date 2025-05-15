@@ -1,0 +1,97 @@
+{
+  "title": "Cloud Computing Essentials",
+  "author": "Cloud Architect",
+  "createdAt": "2025-07-15",
+  "slides": [
+    {
+      "title": "Introduction to Cloud Computing",
+      "subtitle": "The Digital Transformation",
+      "content": "Cloud computing has revolutionized how businesses deploy and scale applications.",
+      "imageUrl": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31"
+    },
+    {
+      "title": "Cloud Service Models",
+      "subtitle": "IaaS, PaaS, SaaS",
+      "content": "Understanding the different layers of cloud services helps choose the right solution.",
+      "bulletPoints": [
+        "Infrastructure as a Service",
+        "Platform as a Service",
+        "Software as a Service",
+        "Function as a Service"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
+    },
+    {
+      "title": "Major Cloud Providers",
+      "subtitle": "AWS, Azure, GCP",
+      "content": "The three leading cloud platforms offer comprehensive services with global reach.",
+      "bulletPoints": [
+        "Amazon Web Services (market leader)",
+        "Microsoft Azure (enterprise focus)",
+        "Google Cloud Platform (AI/ML strength)",
+        "Specialized regional providers"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1629752187687-3d3c7ea3a21b"
+    },
+    {
+      "title": "Serverless Computing",
+      "subtitle": "Focus on Code, Not Infrastructure",
+      "content": "Serverless architectures abstract server management, scaling automatically with demand.",
+      "bulletPoints": [
+        "AWS Lambda",
+        "Azure Functions",
+        "Google Cloud Functions",
+        "Cost-effective for variable workloads"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b"
+    },
+    {
+      "title": "Containerization",
+      "subtitle": "Consistent Deployment Environments",
+      "content": "Containers package applications with dependencies for reliable deployment.",
+      "bulletPoints": [
+        "Docker as the standard",
+        "Kubernetes for orchestration",
+        "Portable across environments",
+        "Efficient resource usage"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1556075798-4825dfaaf498"
+    },
+    {
+      "title": "Cloud Security",
+      "subtitle": "Shared Responsibility Model",
+      "content": "Security in the cloud requires understanding provider vs customer responsibilities.",
+      "bulletPoints": [
+        "Identity and access management",
+        "Data encryption",
+        "Network security",
+        "Compliance certifications"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1563986768609-322da13575f3"
+    },
+    {
+      "title": "Cost Optimization",
+      "subtitle": "Managing Cloud Expenses",
+      "content": "Cloud costs can spiral without proper monitoring and optimization strategies.",
+      "bulletPoints": [
+        "Right-sizing resources",
+        "Reserved instances",
+        "Spot instances",
+        "Cost monitoring tools"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71"
+    },
+    {
+      "title": "Future of Cloud Computing",
+      "subtitle": "Emerging Trends",
+      "content": "The cloud landscape continues to evolve with new technologies and approaches.",
+      "bulletPoints": [
+        "Edge computing",
+        "Hybrid cloud",
+        "AI-powered operations",
+        "Sustainable cloud"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa"
+    }
+  ]
+}

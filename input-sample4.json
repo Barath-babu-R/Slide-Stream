@@ -1,0 +1,85 @@
+{
+  "title": "Mobile App Development in 2025",
+  "author": "Mobile Dev Specialist",
+  "createdAt": "2025-08-20",
+  "slides": [
+    {
+      "title": "The Mobile Landscape",
+      "subtitle": "Current Trends and Statistics",
+      "content": "Mobile continues to dominate digital experiences with evolving user expectations and capabilities.",
+      "imageUrl": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c"
+    },
+    {
+      "title": "Cross-Platform Frameworks",
+      "subtitle": "Build Once, Run Anywhere",
+      "content": "Modern frameworks enable efficient development for multiple platforms from a single codebase.",
+      "bulletPoints": [
+        "Flutter (Dart, Google)",
+        "React Native (JavaScript, Meta)",
+        "Kotlin Multiplatform",
+        ".NET MAUI (Microsoft)"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1622473590773-f588134b6ce7"
+    },
+    {
+      "title": "Native Development",
+      "subtitle": "Platform-Specific Optimization",
+      "content": "For maximum performance and access to latest features, native development remains important.",
+      "bulletPoints": [
+        "Swift/SwiftUI for iOS",
+        "Kotlin/Jetpack Compose for Android",
+        "ARKit and Core ML integration",
+        "Android Jetpack components"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6"
+    },
+    {
+      "title": "Progressive Web Apps",
+      "subtitle": "Web-Based Mobile Experience",
+      "content": "PWAs bridge the gap between web and native apps with offline capabilities and installation.",
+      "bulletPoints": [
+        "Service Workers",
+        "Web App Manifest",
+        "Push Notifications",
+        "App-like UI"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1573164713988-8665fc963095"
+    },
+    {
+      "title": "App Store Optimization",
+      "subtitle": "Getting Discovered",
+      "content": "With millions of apps available, visibility in app stores requires strategic optimization.",
+      "bulletPoints": [
+        "Keyword optimization",
+        "High-quality visuals",
+        "Ratings and reviews",
+        "Localization"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1607252650355-f7fd0460ccdb"
+    },
+    {
+      "title": "Mobile Security",
+      "subtitle": "Protecting User Data",
+      "content": "Mobile apps handle sensitive data requiring robust security measures.",
+      "bulletPoints": [
+        "Data encryption",
+        "Secure authentication",
+        "Code obfuscation",
+        "Regular updates"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b"
+    },
+    {
+      "title": "Future of Mobile",
+      "subtitle": "Emerging Technologies",
+      "content": "Mobile development continues to evolve with new capabilities and paradigms.",
+      "bulletPoints": [
+        "Foldable device support",
+        "AR/VR integration",
+        "On-device AI",
+        "5G capabilities"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa"
+    }
+  ]
+}

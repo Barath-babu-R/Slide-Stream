@@ -1,0 +1,85 @@
+{
+  "title": "Modern JavaScript Frameworks",
+  "author": "JS Expert",
+  "createdAt": "2025-06-10",
+  "slides": [
+    {
+      "title": "Introduction to JavaScript Frameworks",
+      "subtitle": "Why Frameworks Matter",
+      "content": "JavaScript frameworks help developers build complex applications more efficiently by providing structure and reusable components.",
+      "imageUrl": "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a"
+    },
+    {
+      "title": "React",
+      "subtitle": "A Declarative Approach",
+      "content": "React's component-based architecture and virtual DOM make it ideal for building interactive UIs.",
+      "bulletPoints": [
+        "Created by Facebook",
+        "Uses JSX syntax",
+        "Hooks for state management",
+        "Large ecosystem"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1633356122544-f134324a6cee"
+    },
+    {
+      "title": "Vue.js",
+      "subtitle": "The Progressive Framework",
+      "content": "Vue offers an approachable core library that scales between a lightweight tool and full-featured framework.",
+      "bulletPoints": [
+        "Created by Evan You",
+        "Reactive data binding",
+        "Single-file components",
+        "Gentle learning curve"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1627398242454-45a1465c2479"
+    },
+    {
+      "title": "Angular",
+      "subtitle": "Enterprise-Grade Framework",
+      "content": "Angular provides opinionated solutions for building complex applications with TypeScript.",
+      "bulletPoints": [
+        "Backed by Google",
+        "Two-way data binding",
+        "Dependency injection",
+        "Built-in routing"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1593720213428-28a5b9e94613"
+    },
+    {
+      "title": "Svelte",
+      "subtitle": "The Disappearing Framework",
+      "content": "Svelte shifts work to compile time, producing highly optimized vanilla JavaScript.",
+      "bulletPoints": [
+        "No virtual DOM",
+        "Truly reactive",
+        "Small bundle sizes",
+        "Easy to learn"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2"
+    },
+    {
+      "title": "Framework Comparison",
+      "subtitle": "Choosing the Right Tool",
+      "content": "Each framework has strengths that make it suitable for different types of projects.",
+      "bulletPoints": [
+        "React for flexibility",
+        "Vue for progressive adoption",
+        "Angular for large teams",
+        "Svelte for performance"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71"
+    },
+    {
+      "title": "Emerging Trends",
+      "subtitle": "The Future of Frontend",
+      "content": "The JavaScript ecosystem continues to evolve with new approaches and optimizations.",
+      "bulletPoints": [
+        "Server components",
+        "Islands architecture",
+        "Edge rendering",
+        "WebAssembly integration"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa"
+    }
+  ]
+}

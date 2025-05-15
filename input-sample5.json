@@ -1,0 +1,98 @@
+{
+  "title": "Data Science Fundamentals",
+  "author": "Data Scientist",
+  "createdAt": "2025-09-05",
+  "slides": [
+    {
+      "title": "What is Data Science?",
+      "subtitle": "Extracting Insights from Data",
+      "content": "Data science combines statistics, programming, and domain knowledge to solve complex problems.",
+      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71"
+    },
+    {
+      "title": "The Data Science Process",
+      "subtitle": "From Question to Solution",
+      "content": "A structured approach ensures reliable and actionable results.",
+      "bulletPoints": [
+        "Problem definition",
+        "Data collection",
+        "Exploratory analysis",
+        "Model building",
+        "Deployment"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f"
+    },
+    {
+      "title": "Python for Data Science",
+      "subtitle": "Essential Libraries",
+      "content": "Python's ecosystem provides powerful tools for every stage of data analysis.",
+      "bulletPoints": [
+        "Pandas for data manipulation",
+        "NumPy for numerical computing",
+        "Matplotlib/Seaborn for visualization",
+        "Scikit-learn for machine learning"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1526379095098-d400fd0bf935"
+    },
+    {
+      "title": "Machine Learning Basics",
+      "subtitle": "Teaching Computers to Learn",
+      "content": "ML algorithms can find patterns and make predictions from data.",
+      "bulletPoints": [
+        "Supervised vs unsupervised",
+        "Regression and classification",
+        "Neural networks",
+        "Evaluation metrics"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1504639725590-34d0984388bd"
+    },
+    {
+      "title": "Data Visualization",
+      "subtitle": "Communicating Insights",
+      "content": "Effective visuals make complex data understandable to stakeholders.",
+      "bulletPoints": [
+        "Choosing the right chart",
+        "Dashboard tools",
+        "Interactive visualizations",
+        "Storytelling with data"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1587614382346-4ec70e388b28"
+    },
+    {
+      "title": "Big Data Technologies",
+      "subtitle": "Handling Large Datasets",
+      "content": "Specialized tools are needed when data exceeds single-machine capacity.",
+      "bulletPoints": [
+        "Hadoop ecosystem",
+        "Spark for distributed processing",
+        "NoSQL databases",
+        "Cloud data solutions"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d"
+    },
+    {
+      "title": "Ethics in Data Science",
+      "subtitle": "Responsible AI",
+      "content": "With great power comes great responsibility in data handling and usage.",
+      "bulletPoints": [
+        "Bias detection",
+        "Privacy considerations",
+        "Explainable AI",
+        "Regulatory compliance"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2"
+    },
+    {
+      "title": "Data Science Careers",
+      "subtitle": "Paths and Specializations",
+      "content": "The field offers diverse opportunities across industries and focus areas.",
+      "bulletPoints": [
+        "Data Analyst",
+        "Machine Learning Engineer",
+        "Data Engineer",
+        "Research Scientist"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1507679799987-c73779587ccf"
+    }
+  ]
+}

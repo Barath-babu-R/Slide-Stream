@@ -1,0 +1,181 @@
+{
+  "title": "Go Floaters",
+  "author": "Web Dev Expert",
+  "createdAt": "2025-05-15",
+  "slides": [
+    {
+      "title": "Welcome to Web Development",
+      "subtitle": "A Journey Through Modern Web Technologies",
+      "content": [
+        "This presentation will guide you through the fundamentals of web development in 2025.",
+        "We'll explore front-end, back-end, and the tools that connect them together."
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1498050108023-c5249f4df085"
+    },
+    {
+      "title": "HTML - The Structure",
+      "subtitle": "Building Blocks of the Web",
+      "content": "HTML (HyperText Markup Language) provides the basic structure of sites, which is enhanced and modified by other technologies like CSS and JavaScript.",
+      "bulletPoints": [
+        "HTML5 is the latest version with new semantic elements",
+        "Proper structure improves accessibility and SEO",
+        "Semantic HTML helps browsers understand your content",
+        "Metadata is crucial for search engine optimization"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1542831371-29b0f74f9713"
+    },
+    {
+      "title": "CSS - The Style",
+      "subtitle": "Making Websites Beautiful",
+      "content": "CSS (Cascading Style Sheets) is used to control the presentation, formatting, and layout of a web document.",
+      "bulletPoints": [
+        "CSS3 introduces animations, transitions, and transformations",
+        "Flexbox and Grid revolutionized layout design",
+        "CSS variables allow for more maintainable code",
+        "Responsive design ensures sites work on all devices"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1523437113738-bbd3cc89fb19"
+    },
+    {
+      "title": "JavaScript - The Behavior",
+      "subtitle": "Adding Interactivity to Websites",
+      "content": "JavaScript is a programming language that allows you to implement complex features on web pages and create dynamic content.",
+      "bulletPoints": [
+        "ES6+ features have made JavaScript more powerful",
+        "Async/await simplifies asynchronous programming",
+        "DOM manipulation enables interactive web pages",
+        "Modern frameworks like React, Vue, and Angular speed up development"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1627398242454-45a1465c2479"
+    },
+    {
+      "title": "Front-End Frameworks",
+      "subtitle": "Building Modern User Interfaces",
+      "content": "Front-end frameworks provide structure for JavaScript code, make it easier to develop complex features, and help create a consistent design system.",
+      "bulletPoints": [
+        "React - Component-based library with virtual DOM",
+        "Vue - Progressive framework focusing on simplicity",
+        "Angular - Full-featured MVC framework",
+        "Svelte - Compiler-based approach with minimal runtime"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1555066931-bf19f8fd1085"
+    },
+    {
+    "title": "Back-End Development",
+    "subtitle": "Server-Side Technologies",
+    "content": "Back-end development refers to the server side of web development that focuses on how the website works and communicates with databases.",
+    "bulletPoints": [
+        "Node.js - JavaScript runtime for server-side programming",
+        "Express - Popular Node.js framework for web applications",
+        "Python with Django or Flask for rapid development",
+        "Ruby on Rails for convention over configuration"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
+    },
+    {
+      "title": "Databases",
+      "subtitle": "Storing and Managing Data",
+      "content": "Databases are essential for websites that need to store, retrieve, and manage large amounts of data efficiently.",
+      "bulletPoints": [
+        "SQL databases like PostgreSQL, MySQL for relational data",
+        "NoSQL options like MongoDB, Firebase for flexible schemas",
+        "GraphQL as a query language for APIs",
+        "Redis for in-memory data structure store and caching"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1544383835-bda2bc66a55d"
+    },
+    {
+      "title": "API Development",
+      "subtitle": "Connecting Applications",
+      "content": "APIs (Application Programming Interfaces) allow different software applications to communicate with each other.",
+      "bulletPoints": [
+        "REST APIs for standardized communication",
+        "GraphQL for flexible data fetching",
+        "WebSockets for real-time bidirectional communication",
+        "Authentication and security best practices"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1563986768609-322da13575f3"
+    },
+    {
+      "title": "DevOps & Deployment",
+      "subtitle": "Getting Your Code to Production",
+      "content": "DevOps practices bridge the gap between development and operations, enabling continuous integration and deployment.",
+      "bulletPoints": [
+        "Git for version control and collaboration",
+        "Docker for containerization and consistent environments",
+        "CI/CD pipelines for automated testing and deployment",
+        "Cloud platforms like AWS, Azure, and Google Cloud"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1556075798-4825dfaaf498"
+    },
+    {
+      "title": "Web Performance",
+      "subtitle": "Speed Matters",
+      "content": "Web performance is crucial for user experience and search engine rankings.",
+      "bulletPoints": [
+        "Core Web Vitals for measuring user experience",
+        "Code splitting and lazy loading for faster load times",
+        "Image optimization and next-gen formats",
+        "Caching strategies for improved performance"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71"
+    },
+    {
+      "title": "Accessibility",
+      "subtitle": "Building for Everyone",
+      "content": "Web accessibility ensures that websites are usable by people of all abilities and disabilities.",
+      "bulletPoints": [
+        "WCAG guidelines for accessible content",
+        "Semantic HTML for screen readers",
+        "Keyboard navigation for motor disabilities",
+        "Color contrast for visual impairments"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2"
+    },
+    {
+      "title": "Security Best Practices",
+      "subtitle": "Protecting Your Application",
+      "content": "Web security is essential to protect your application and your users' data from attacks.",
+      "bulletPoints": [
+        "HTTPS for encrypted communication",
+        "XSS and CSRF protection",
+        "Authentication and authorization",
+        "Regular security audits and updates"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b"
+    },
+    {
+      "title": "Future Trends",
+      "subtitle": "What's Next in Web Development",
+      "content": "The web is constantly evolving with new technologies and approaches.",
+      "bulletPoints": [
+        "Edge computing and serverless architectures",
+        "WebAssembly for high-performance applications",
+        "AI integration in web applications",
+        "Progressive Web Apps (PWAs) for native-like experiences"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa"
+    },
+    {
+      "title": "Learning Resources",
+      "subtitle": "Continue Your Web Development Journey",
+      "content": "There are many great resources available to help you learn and stay up-to-date with web development.",
+      "bulletPoints": [
+        "MDN Web Docs for comprehensive references",
+        "freeCodeCamp for interactive learning",
+        "CSS-Tricks for tutorials and techniques",
+        "Web dev communities on Discord, Reddit, and Stack Overflow"
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1501504905252-473c47e087f8"
+    },
+    {
+      "title": "Thank You!",
+      "subtitle": "Questions and Contact Information",
+      "content": [
+        "Thank you for attending this presentation on web development.",
+        "Feel free to reach out if you have any questions or would like to discuss web development further."
+      ],
+      "imageUrl": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
+    }
+  ]
+}
