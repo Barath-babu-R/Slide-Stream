@@ -1,0 +1,25 @@
+# JSON STRUCTURE MAINTAINING
+
+
+{
+  "title": "Presentation Title",
+  "author": "Author Name",
+  "createdAt": "YYYY-MM-DD",
+  "slides": [
+    {
+      "title": "Slide Title 1",
+      "subtitle": "Optional Subtitle",
+      "content": "This is a string content example",
+      "imageUrl": "https://example.com/image1.jpg"
+    },
+    {
+      "title": "Slide Title 2",
+      "subtitle": "Another Subtitle",
+      "content": [
+        "This is an array of paragraphs",
+        "Second paragraph of content",
+        "Third paragraph if needed"
+      ],
+      "imageUrl": "https://example.com/image2.jpg"
+    }
+]}

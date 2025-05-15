@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Floaters</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+                <header>
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+                SlideCast
+            </div>
+            <div class="header-center">
+                <div class="header-title">GO Floaters</div>
+                <div class="header-subtitle">Spaces that work for you</div>
+            </div>
+            <div class="upload-section">
+                <button class="upload-btn" id="header-upload-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="17 8 12 3 7 8"></polyline>
+                        <line x1="12" y1="3" x2="12" y2="15"></line>
+                    </svg>
+                    Upload JSON
+                </button>
+                <div class="file-info" id="file-info"></div>
+            </div>
+        </header>
+        
+        <main>
+            <!-- Welcome Screen -->
+            <div class="welcome-screen" id="welcome-screen">
+                <div class="welcome-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                        <line x1="8" y1="21" x2="16" y2="21"></line>
+                        <line x1="12" y1="17" x2="12" y2="21"></line>
+                    </svg>
+                </div>
+                <h1 class="welcome-title">Welcome to SlideCast</h1>
+                <p class="welcome-description">
+                    Upload your JSON file to convert it into an interactive presentation with slides. 
+                    Each JSON file should contain between 5 to 15 slides with titles, content, and optional images.
+                </p>
+                <div class="upload-area" id="upload-area">
+                    <div class="upload-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                            <polyline points="17 8 12 3 7 8"></polyline>
+                            <line x1="12" y1="3" x2="12" y2="15"></line>
+                        </svg>
+                    </div>
+                    <p class="upload-text">Click to upload or drag and drop</p>
+                    <p class="upload-hint">JSON files only</p>
+                    <input type="file" id="file-input" accept=".json" style="display: none;">
+                </div>
+            </div>
+
+            <!-- Loading Section -->
+            <div class="loading" id="loading" style="display: none;">
+                <div class="loading-content">
+                    <div class="spinner"></div>
+                    <div class="loading-text">Preparing Your Presentation</div>
+                    <div class="loading-subtext" id="loading-subtext">Loading your awesome content...</div>
+                </div>
+            </div>
+            
+            <!-- Presentation Screen -->
+            <div class="presentation-container" id="presentation-container">
+                <div class="thumbnails-panel" id="thumbnails-panel">
+                    <div class="thumbnails-header">SLIDES</div>
+                    <!-- Thumbnails will be added here -->
+                </div>
+                
+                <div class="slide-container">
+                    <div class="slide-view" id="slide-view">
+                        <!-- Slides will be added here -->
+                    </div>
+                    
+                    <div class="slide-controls">
+                        <button class="nav-button" id="prev-slide">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="15 18 9 12 15 6"></polyline>
+                            </svg>
+                            Previous
+                        </button>
+                        
+                        <div class="slide-progress">
+                            <div class="slide-counter" id="slide-counter">Slide 1 of 10</div>
+                            <div class="progress-bar">
+                                <div class="progress-fill" id="progress-fill"></div>
+                            </div>
+                        </div>
+                        
+                        <button class="nav-button" id="next-slide">
+                            Next
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="9 18 15 12 9 6"></polyline>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Loading Indicator -->
+    <div class="loading" id="loading" style="display: none;">
+        <div class="spinner"></div>
+        <div>Loading presentation...</div>
+    </div>
+    
+<script src="script.js"></script>
+</body>
+</html>
